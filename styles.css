@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 1em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me {
+    margin-bottom: 2em;
+}
+
+.skills {
+    margin-bottom: 2em;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.project-content,
+.project-footer {
+    margin-bottom: 1em;
+}
+
+.project-footer {
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.project-footer p {
+    margin: 0;
+}
